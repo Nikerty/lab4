@@ -7,7 +7,7 @@ function App() {
   const vers = "Its 1.0.1 version"
 
   const onClick = () => {
-    console.log("hello world")
+    console.log("hello its me")
   }
 
 
