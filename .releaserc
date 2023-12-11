@@ -1,7 +1,6 @@
 {
 "branches": ['main'],
 
-  "plugins": [
-    "commit-analyzer-fail-on-no-release"
-   ],
+"plugins": ['@semantic-release/commit-analyzer', '@semantic-release/release-notes-generator', '@semantic-release/github', "commit-analyzer-fail-on-no-release"],
+
 }
